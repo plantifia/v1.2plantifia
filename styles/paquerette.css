@@ -71,7 +71,11 @@ html {
     font-size: 22px;
     line-height: 2;
     letter-spacing: 1px;
-  }
+    transition-duration: 0.5s;
+    }
+    a:hover{
+    letter-spacing: 5px;
+    }
   .fin {
     padding: 20px 20px;
   }
