@@ -47,10 +47,6 @@ html {
     color: #ffffff;
     border: 1px solid rgb(255, 255, 255);
   }
-  .carousel {
-    width: 35%;
-    margin: auto;
-  }
   
   .sectionCarouselPage1{
     padding: 40px 0;
@@ -93,9 +89,6 @@ html {
     margin-bottom: 0;
     margin-left: 15px;
     margin: 100px;
-  }
-  .coclico {
-    margin: 80px 80px;
   }
   p {
     margin-top: 0;
