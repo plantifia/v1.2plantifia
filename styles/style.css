@@ -7,7 +7,7 @@ html {
     text-align: center;
     padding: 20px 0;
     color: #ffffff;
-    text-shadow: 3px 3px 1px rgb(28, 90, 44)
+    text-shadow: 3px 3px 1px rgb(28, 90, 44);
   }
   p, li {
     font-size: 25px;
@@ -22,7 +22,7 @@ html {
 
   h2 {
     font-size: 40px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 1px;
   }
 
