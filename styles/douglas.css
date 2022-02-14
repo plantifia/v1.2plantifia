@@ -1,107 +1,200 @@
 html {
-    font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
-    font-family: 'Oswald', sans-serif;
+  font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+  text-shadow: 3px 3px 1px rgb(28, 90, 44)
+}
+p, li {
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+body {
+  font-size: 60px;
+  margin: 0 auto;
+  background-color: #015634;
+};
+
+h2 {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+div {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+link {
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.sectionCarouselPage1{
+  padding: 40px 0;
+}
+
+.textPage1 {
+  padding: 20px 25px;
+  border: 5px solid;
+  border-color: white;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+.logo {
+  width: 6%;
+}
+.collapse {
+  color: black;
+}
+.textesenter{
+  margin: 20px 20px;
+  padding: 10px;
+  border-color: white;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 255, 255);
+}
+a {
+  font-size: 22px;
+  line-height: 2;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
   }
-  h1 {
-    font-size: 80px;
-    text-align: center;
-    padding: 20px 0;
-    color: #ffffff;
-    text-shadow: 3px 3px 1px rgb(28, 90, 44)
+  a:hover{
+  letter-spacing: 5px;
   }
-  p, li {
-    font-size: 25px;
-    line-height: 1;
-    letter-spacing: 1px;
-  }
-  a {
-    font-size: 22px;
-    line-height: 2;
-    letter-spacing: 1px;
-    transition-duration: 0.5s;
-    }
-    a:hover{
-    letter-spacing: 5px;
-    }
-  body {
-    font-size: 60px;
-    margin: 0 auto;
-    background-color: #015634;
-  };
-  
-  h2 {
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-  
-  div {
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-  link {
-    font-size: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    background-color: black;
-    color: #ffffff;
-    border: 1px solid rgb(255, 255, 255);
-  }
-  
-  .sectionCarouselPage1{
-    padding: 40px 0;
-  }
-  
-  .textPage1 {
-    padding: 20px 25px;
-    border: 5px solid;
-    border-color: white;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
-  .logo {
-    width: 6%;
-  }
-  .collapse {
-    color: black;
-  }
-  .textesenter{
-    margin: 20px 20px;
-    padding: 10px;
-    border-color: white;
-    border-radius: 10px;
-    border: 5px solid rgb(255, 255, 255);
-  }
-  .fin {
-    padding: 20px 20px;
-  }
-  .card {
-    margin: 20px 20px;
-  }
-  .card-deck .card {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-right: 15px;
-    margin-bottom: 0;
-    margin-left: 15px;
-    margin: 100px;
-  }
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding: 0% 35%;
-  }
-  .spinner-border {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin: 5% 41%;
-  }
-  .exit {
-    padding: 20px;
-  }
-  @media (max-width: 768px) {
+.fin {
+  padding: 20px 20px;
+}
+.card {
+  margin: 20px 20px;
+}
+.card-deck .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin: 100px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin: 20px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  padding: 20px;
+}
+.exit {
+  padding: 20px;
+}
+.h2, h2 {
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  padding: 20px;
+}
+.douglas1 {
+  width: 75%;
+  margin: 80px;
+  border-radius: 10px;
+}
+.douglas2 {
+  margin: 80px;
+  border-radius: 10px;
+  width: 60%;
+}
+.hetre4 {
+  margin: 20px;
+  border-radius: 10px;
+}
+.histoirc {
+  padding: 20px;
+}
+.d1 {
+  margin: 10px;
+  padding: 10px 10px 6px 6px;
+  border-radius: 20px;
+}
+.d2 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d3 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d4 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d5 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d6 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d7 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d8 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d9 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d11 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d12 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d13 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.d14 {
+  padding: 10px;
+  border-radius: 20px;
+}
+.tabl {
+  text-align: center;
+  margin: 20px 10px 20px 60px;
+  border-radius: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  font-size: 1.7rem;
+}
+.fin {
+  margin: 0% 45% 0% 45%;
+  border-radius: 10px;
+}
+.rarter {
+  margin: 0px 110px;
+}
+.c {
+ border-radius: 10px;
+}
+@media (max-width: 768px) {
+
 }
